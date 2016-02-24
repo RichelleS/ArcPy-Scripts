@@ -1,0 +1,13 @@
+Richelle's Python Conventions
+
+
+:Comments:
+One # and space with capital: Description of code below.								# I am a description of what the code does
+One # with no space and (typically) lowercase: Code that has been commented out.		#arcpy.env.workspace = r"c:\temp"
+Two ## and space with capital: Notes on line of code.									## I am a note
+
+
+:Naming:
+Variable = lowercase start and proper case following (no gaps)              			myNameIs
+Function = all lowercase and underscore dividing names (no gaps)						my_name_is
+Class = all proper case (no gaps)														MyNameIs

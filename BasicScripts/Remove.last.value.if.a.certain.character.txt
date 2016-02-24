@@ -1,0 +1,7 @@
+def FindLabel ([NAME]):
+  s = [NAME]
+  if s[-1] == 'P':
+     result = s[:-1]
+  else:
+     result = s
+  return result
